@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr.Styler</title>
+  <!-- css -->
+  <link rel="stylesheet" href="./Mr_Styler.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/455de6cff9.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="">
+
+    <div class="bg-image" style="background-image: url(./young-people-london-streets.jpg);">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-none " id="home">
+        <div class="container-fluid fw-medium fs-5  ">
+          <a class="navbar-brand  " href="#home"><img class="icon1  img-fluid" src="./icon2.png" alt=""></a>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar "></span>
+            <span class="toggler-icon middle-bar "></span>
+            <span class="toggler-icon bottom-bar "></span>
+
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav" id="nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#style">Style</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#groom">Groom's Outfits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#article">Articles</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Button trigger modal -->
+      <button style="margin: 35% 45% 0px  ; width: 9rem;" type="button" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#exampleModal">
+        Sign in
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+
+            <div class="modal-body">
+
+
+
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+
+
+
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Sign in</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section 1 -->
+    <section class=" text-center  mt-5  mb-5 bg-light">
+      <div class="row">
+
+        <div class="col-md-5 p-5" style="align-items: center;justify-items: center; background-color: #f9efe3;">
+          <img src="./icon2.png" alt="">
+        </div>
+        <div class="col-md-7 p-5" id="intro" style="text-align: center; justify-items: center;">
+          <h2>Mr.Styler</h2>
+          <p>Welcome to Mr.Styler, the online evolution of a traditional men’s magazine, dedicated to timeless yet
+            contemporary style, intelligent living, and value. As an insight into our beliefs. Our aim is to deliver
+            well-researched, considered and timely men’s lifestyle content – with journalistic integrity</p>
+        </div>
+      </div>
+    </section>
+    <!-- section 2  article-->
+
+    <section id="article" class="container">
+      <h2 style="font-weight: 450;font-size: 2.5rem; margin-bottom: 2rem;">Articles</h2>
+      <hr>
+      <div class="row p-5 m-1" style="height: auto; ">
+        <div class="col-md-6" style="background-color: #f9efe3;">
+          <img style="width: 100%;" src="./sweatshirt.jpg" alt="">
+          <h2
+            style="font-weight: 450;font-size: 2.5rem; margin-bottom: 2rem;margin-top: 6rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+            Streetwear Brands You Should Cop
+          </h2>
+          <p
+            style="font-weight: 450; margin-bottom: 2rem; letter-spacing: 2px; align-content: center;text-align: center;">
+            These are the labels every self-respecting streetwear addict should cop.</p>
+          <button
+            style="align-content: center;text-align: center;font-size: small;padding: 5px;border: 1px solid;margin-left: 42%; margin-bottom: 1rem;background-color: #f9efe3;"
+            type="button">READ MORE</button>
+        </div>
+
+
+        <div class="col-md-6 ">
+          <div class="row  ms-2">
+            <div class="col-lg-6">
+              <a href="" style="text-decoration: none ; color: #000;"><img class="img-fluid"
+                  src="./bike jack.jpg" style="width: 100%;" alt="">
+                <h2
+                  style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+                  Premium Rider's Jackets
+                </h2>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="" style="text-decoration: none ; color: #000;"> <img class="img-fluid" style="width: 100%;"
+                  src="./cos.jpg" alt="">
+                <h2
+                  style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+                  Cosmetics that Men Should Use
+                </h2>
+              </a>
+            </div>
+          </div>
+
+
+
+          <div class="row ms-2">
+            <div class="col-lg-6">
+              <a href="" style="text-decoration: none ; color: #000;"><img class="img-fluid"
+                  src="./summer.jpg" style="width: 100%;" alt="">
+                <h2
+                  style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+                  Summer Outfits Every Gentleman Should Master
+                </h2>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="" style="text-decoration: none ; color: #000;"> <img class="img-fluid" style="width: 100%;"
+                  src="./milan.jpg" alt="">
+                <h2
+                  style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+                  Street Style Styling Tricks to Steal From the Guys at Milan
+                </h2>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="row ms-2">
+            <div class="col-lg-6">
+              <a href="" style="text-decoration: none ; color: #000;"><img class="img-fluid"
+                  src="./Ranveer-Singh.jpg" style="width: 100%;" alt="">
+                <h2
+                  style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+                  How men’s designer fashion is evolving in India
+                </h2>
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="" style="text-decoration: none ; color: #000;"> <img class="img-fluid" style="width: 100%;"
+                  src="./walk.jpg" alt="">
+                <h2
+                  style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+                  Best Walking Shoes For Men – STRIDE IN STYLE IN 2023
+                </h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- section 3 style -->
+    <section id="style" class="container">
+      <h2 style="font-weight: 450;font-size: 2.5rem; margin-bottom: 2rem; margin-top: 6rem;">Style</h2>
+      <hr>
+      <div class="row  p-5 m-1">
+        <div class="col-lg-4">
+          <a href="" style="text-decoration: none ; color: #000;"> <img class="img-fluid" style="width: 100%;"
+              src="./linen.jpg" alt="">
+            <h2
+              style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+              The Best Men’s Linen Trouser Brands For Summer
+            </h2>
+          </a>
+        </div>
+
+
+
+
+
+        <div class="col-lg-4">
+          <a href="" style="text-decoration: none ; color: #000;"> <img class="img-fluid" style="width: 100%;"
+              src="./linen s.jpg" alt="">
+            <h2
+              style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+              The Best Men’s Linen Shirts
+            </h2>
+          </a>
+        </div>
+
+
+
+
+        <div class="col-lg-4">
+          <div class="row">
+            <a href="" style="text-decoration: none ; color: #000;"> <img class="img-fluid" style="width: 100%;"
+                src="./men-shoes.jpg" alt="">
+              <h2
+                style="font-weight: 450;font-size: 1.5rem; margin-bottom: 2rem;margin-top: 1rem; letter-spacing: 2px; align-items: center;align-content: center;text-align: center;">
+                Cool Shoes & Bags
+              </h2>
+            </a>
+          </div>
+          <div class="row"><a class="more" href=""
+              style="text-decoration: none ;text-align: center; margin-top: 3rem;border:  solid 1px; width: auto; border-radius: 7%;">more...</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- section 4 -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div style="height: 40rem;" class="carousel-inner">
+        <div class="carousel-item active">
+          <img style="height: 40rem;" src="./bramds.png" class="d-block w-auto img-fluid mx-auto " alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="height: 40rem;" src="./dior.jpg" class="d-block w-auto img-fluid mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="height: 40rem;" src="./dolcegabbana.jpg" class="d-block w-auto img-fluid mx-auto"
+            alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="height: 40rem;" src="./horst.jpg" class="d-block w-auto img-fluid mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img style="height: 40rem;" src="./model1.jpg" class="d-block w-auto img-fluid mx-auto" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- section 5  groom-->
+
+    <section id="groom" class="container" style="margin-bottom: 5rem;">
+      <h2 style="font-weight: 450;font-size: 2.5rem; margin-bottom: 2rem; margin-top: 6rem;">Groom's Outfits</h2>
+      <hr>
+      <div class="row mt-5">
+        <div class="col-lg-6 mb-2">
+          <div class="card">
+            <img class="img-fluid" src="./western.jpg" alt="">
+            <div class="overlay">
+              <div class="content"><a style="text-decoration: none;color: #f9efe3;" href="./western.html">
+                  <h2>WESTERN</h2>
+                </a></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mb-2">
+          <div class="card">
+            <img class="img-fluid" src="./indian.jpg" alt="">
+            <div class="overlay">
+              <div class="content">
+                <a style="text-decoration: none;color: #f9efe3;" href="./indian.html"><h2>INDIAN TRADITIONS</h2></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer" style="margin-top: 5rem; background-color: #f9efe3;">
+      <div class="row">
+        <div class="col-lg-6 p-5" id="about">
+          <img class="icon1  img-fluid" src="./icon2.png">
+          <h5 style="padding: 1rem; font-weight: bold;">About Us</h5>
+          <p style="margin-left: 1rem; line-height: 1.5;letter-spacing: 1.5px;text-align: justify;">The online evolution
+            of a traditional men’s magazine, dedicated to timeless yet contemporary style, intelligent living, and
+            value. As an insight into our beliefs. Our aim is to deliver well-researched, considered and timely men’s
+            lifestyle content – with journalistic integrity</p>
+
+        </div>
+        <div class="col-lg-6">
+          <div class="row d-flex" id="contact">
+            <h5 style="margin-top: 18rem; font-weight: bold;margin-left: 5rem;">Contact Us</h5>
+
+            <ul>
+              <li><a href=""><i class="fa-brands fa-facebook" style="color: #7d5d35; font-size: 50px;"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-twitter" style="color: #7d5d35; font-size: 50px"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram" style="color: #7d5d35; font-size: 50px"></i></a></li>
+              <li><a href=""><i class="fa-solid fa-envelope" style="color: #7d5d35; font-size: 50px"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+<!-- bootstrap cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</html>
